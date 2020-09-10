@@ -1,0 +1,147 @@
+*{margin: 0;
+padding: 0:;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+
+body,h1,h2,h3,h4,h5,h6,p,span,button {
+	font-family:'plyfair display',serif;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+display: flow-root;
+
+}
+.container{
+	width: 1140px;
+  margin: 0 auto;
+}
+
+.nav{
+width: 100%;
+float: left;
+padding: 48px 0px;
+
+}
+.logo{
+	width: 20%;
+float: left;
+
+}
+.manu{
+	width: 80%;
+	float: left;
+ text-align: right;
+}
+
+.manu ul li{
+list-style: none;
+display: inline-block;
+    margin-left: 49px;
+
+}
+
+
+.manu ul li a{
+
+color: #b4ad9e;
+
+padding-left: 5px;
+padding-right: 5px;
+
+}
+.banner{
+	width: 100%;
+	display: flow-root;
+
+}
+.desc{
+
+	padding: 62px;
+}
+.cat{
+
+	color: #b4ad9e;
+
+}
+.title{
+	margin: 20px 0px;
+}
+.description{
+
+	margin-bottom: 32px;
+}
+.comment{
+	color: #b4ad9e;
+	
+}
+.gallary{
+width: 100%;
+display: flow-root;
+
+}
+
+.post{
+	padding: 62px;
+}
+.post-gallay{
+
+	width: 100%;
+	float: left;
+	}
+.item-1{
+	width: 50%;
+	float: right;
+
+}
+.item-2{
+	width: 50%;
+	float: left;
+}
+.post-gallay .cat{
+
+	margin-top: 30px;}
+
+.item{
+	padding: 32px;
+}
+.subscribe{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+	padding: 80px 0px;
+	text-align: center;
+}
+form{
+	margin-top: 20px;
+	position: relative;
+}
+form input{
+
+	background:transparent;
+	padding:15px 0px;
+	width: 350px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+form i{
+	position:absolute;
+	top: 18px;
+	right: 400px;
+}
+.load-more{
+	text-align: center;
+}
+.load-more button{
+padding: 10px 20px;
+width: 160px;
+background:transparent;
+font-size:22px;
+border: none;
+border:1px solid black;
+color: #b4ad9e;
+
+}
